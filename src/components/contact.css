@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:700|Poppins:400');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins';
+}
+
+.contact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #eef0ee;
+}
+
+form {
+	max-width: 500px;
+	width: 100%;
+	height: 52em;
+	background: #fff;
+	padding: 25px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.01);
+	color: #0b0e0b;
+	margin: auto;
+	font-size: 14px;
+}
+
+h1 {
+	font-size: 44px;
+	text-align: center;
+	font-family: 'Lora';
+}
+
+p {
+	font-weight: 500;
+	font-size: 16px;
+	text-align: center;
+	margin: 6px 0 1em;
+}
+
+.input-box {
+	margin: auto;
+	width: calc(100% - 2em);
+	padding: 0.5em;
+}
+
+.input-box .field {
+	width: 92%;
+	height: 10px;
+	background: #eceef0;
+	border: 0.6em solid #eceef0;
+	border-radius: 3px;
+	padding: 10px;
+	font-size: 14px;
+	color: #0b0e0b;
+	margin-top: 2px;
+	resize: none;
+}
+
+.input-box .field.mess {
+	height: 58px;
+}
+
+.swal2-button,
+form button {
+	background: linear-gradient(45deg, #7ca37cc5, #6c9971);
+	color: #0b0e0b;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	height: 40px;
+	width: 80px;
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 16px;
+	border: none;
+	border-radius: 3px;
+	letter-spacing: 0.5px;
+	transition: transform 0.2s ease, color 0.1s;
+}
+
+.swal2-button:hover,
+form button:hover {
+	transform: translateY(-2px);
+}
+
+form button {
+	width: 94%;
+	margin: 1em 15px;
+	height: 3em;
+}
+
+form button:hover {
+	color: #ffffffd0;
+}
