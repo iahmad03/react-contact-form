@@ -45,11 +45,19 @@ const Contact = () => {
 				<p class="quote">Get a free estimate</p>
 				<div className="input-box">
 					<label>Name</label>
-					<input type="text" className="field" name="name" required />
+					<input 
+						type="text" 
+						className="field" 
+						name="name" 
+						required />
 				</div>
 				<div className="input-box">
 					<label>Phone</label>
-					<input type="tel" className="field" name="phone" required />
+					<input 
+						type="tel" 
+						className="field" 
+						name="phone" 
+						required />
 				</div>
 				<div className="input-box">
 					<label>Address</label>
@@ -88,7 +96,6 @@ const Contact = () => {
 				</div>
 				<button type="submit">Submit ➝</button>
 			</form>
-			<span>{result}</span>
 		</section>
 	);
 };
